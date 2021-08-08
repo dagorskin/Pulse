@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dagorskin/Uber.git"
+    "url": "git+https://github.com/dagorskin/Pulse.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dagorskin/Uber/issues"
+    "url": "https://github.com/dagorskin/Pulse/issues"
   },
-  "homepage": "https://github.com/dagorskin/Uber#readme",
+  "homepage": "https://github.com/dagorskin/Pulse#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0",
@@ -26,6 +26,12 @@
     "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-rename": "^2.0.0",
-    "gulp-sass": "^5.0.0"
-  }
+    "gulp-sass": "^5.0.0",
+    "normalize.css": "^8.0.1"
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ]
 }
